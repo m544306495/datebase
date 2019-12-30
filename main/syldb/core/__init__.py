@@ -21,7 +21,7 @@ class FieldType(Enum):
     FLOAT = float = 'float'  #浮点型
 
 # 约束映射类
-class FiledKey(Enum):
+class FieldKey(Enum):
     PRIMARY = 'PRIMARY KEY'  # 主键约束
     INCREMENT = 'AUTO_INCREMENT'  # 自增约束
     UNIQUE = 'UNIQUE'  # 唯一约束
